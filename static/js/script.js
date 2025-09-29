@@ -28,3 +28,23 @@ prevBtn.addEventListener('click', prevSlide);
 
 // Initialize
 showSlide(slideIndex);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const text = `print("Hello world!, I'm Amohelang Mohlomi")`;
+    const typedText = document.getElementById("typed-text");
+    const cursor = document.querySelector(".cursor");
+
+    let index = 0;
+
+    function type() {
+        if (index < text.length) {
+            typedText.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, 80); 
+        } else {
+            cursor.style.display = "none"; 
+        }
+    }
+
+    type();
+});
