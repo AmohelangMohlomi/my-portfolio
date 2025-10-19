@@ -237,3 +237,14 @@ footer {
   border-radius: 8px;
   transition: width 1.5s ease-in-out;
 }
+
+section {
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.2);
+  background-color: #1a1f2b; 
+  border: 1px solid #58A6FF; 
+}
