@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>You can reach out to me via the links below:</p>
 
+  <ul class="contact-list">
+    <li><strong>Email:</strong> <a href="mailto:mohlomiamohelang3@gmail.com">mohlomiamohelang3@gmail.com</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amohelang-mohlomi-304526271/" target="_blank">Click here for my Linkedin</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/AmohelangMohlomi" target="_blank">Click here for my Github</a></li>
+    <li><strong>Download CV:</strong> <a href="{{ url_for('static', filename='AmohelangMohlomi_CV.pdf') }}" download>Click here to download</a></li>
+  </ul>
 </section>
 
-    <h1 class="typewriter"><span id="typed-text"></span><span class="cursor">|</span></h1>
-    <p>I'm an aspiring <span class="accent">Data Engineer</span> with a keen interest in <span class="accent">Artificial Intelligence</span> and 
-        <span class="accent">Machine Learning</span>. I focus on building scalable data pipelines, 
-        exploring intelligent systems,
-         and leveraging modern tools to create impactful, real-world solutions.</p>
-
-    <a href="/projects" class="button">View My Projects</a>
-</section>
+{% endblock %}
