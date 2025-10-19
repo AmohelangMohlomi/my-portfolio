@@ -204,13 +204,13 @@ footer {
 
 .languages-container {
   display: flex;
-  gap: 30px; /* space between items */
-  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  gap: 30px; 
+  flex-wrap: wrap; 
   justify-content: start;
 }
 
 .language-item {
-  width: 150px; /* fixed width for each item */
+  width: 150px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,7 +233,7 @@ footer {
 .progress {
   height: 100%;
   width: 0;
-  background-color: #4CAF50;
+  background-color: #58A6FF;
   border-radius: 8px;
   transition: width 1.5s ease-in-out;
 }
