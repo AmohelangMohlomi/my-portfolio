@@ -1,14 +1,28 @@
-{% extends "base.html" %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amohelang Mohlomi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/">Amohelang Mohlomi()</a></h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
 <section class="intro">
 
     <section class="slideshow">
     <div class="slides">
-        <img src="{{ url_for('static', filename='img/slide1.jpeg') }}" class="slide active">
-        <img src="{{ url_for('static', filename='img/slide2.jpeg') }}" class="slide">
-        <img src="{{ url_for('static', filename='img/slide3.jpeg') }}" class="slide">
-        <img src="{{ url_for('static', filename='img/slide4.jpeg') }}" class="slide">
+        <img src="assets/slide1.jpeg" class="slide active">
+        <img src="assets/slide2.jpeg" class="slide">
+        <img src="assets/slide3.jpeg" class="slide">
+        <img src="assets/slide4.jpeg" class="slide">
     </div>
 
 </section>
@@ -191,4 +205,11 @@ window.addEventListener('DOMContentLoaded', () => {
     bar.style.width = targetWidth;
   });
 });</script>
-{% endblock %}
+
+    <footer>
+        <p>&copy; 2025 Amohelang Mohlomi</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

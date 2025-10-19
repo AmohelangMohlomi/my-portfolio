@@ -1,5 +1,19 @@
-{% extends "base.html" %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amohelang Mohlomi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/">Amohelang Mohlomi()</a></h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 <section class="contact">
   <h2>Contact Me</h2>
   <p>You can reach out to me via the links below:</p>
@@ -11,5 +25,10 @@
     <li><strong>Download CV:</strong> <a href="{{ url_for('static', filename='AmohelangMohlomi_CV.pdf') }}" download>Click here to download</a></li>
   </ul>
 </section>
+    <footer>
+        <p>&copy; 2025 Amohelang Mohlomi</p>
+    </footer>
+    <script src="script.js"></script>
 
-{% endblock %}
+</body>
+</html>
