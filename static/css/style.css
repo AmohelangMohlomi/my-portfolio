@@ -183,3 +183,21 @@ footer {
     object-fit: contain;
     vertical-align: middle;
 }
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 12px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color: #58A6FF;
+    border-radius: 8px;
+    transition: width 1.5s ease-in-out;
+}

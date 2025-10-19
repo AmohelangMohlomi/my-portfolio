@@ -11,10 +11,6 @@
         <img src="{{ url_for('static', filename='img/slide4.jpeg') }}" class="slide">
     </div>
 
-    <div class="controls">
-        <button id="prev">&#10094;</button>
-        <button id="next">&#10095;</button>
-    </div>
 </section>
 
     <h1 class="typewriter"><span id="typed-text"></span><span class="cursor">|</span></h1>
@@ -62,32 +58,97 @@
 
     <h3>Languages</h3>
     <ul class="languages">
-        <li><img src="{{ url_for('static', filename='img/python.png') }}" alt="Python Logo"> Python</li>
-        <li><img src="{{ url_for('static', filename='img/java.png') }}" alt="Java Logo"> Java</li>
-        <li><img src="{{ url_for('static', filename='img/sql.jpg') }}" alt="SQL Logo"> SQL</li>
-        <li><img src="{{ url_for('static', filename='img/javascript.jpg') }}" alt="JavaScript Logo"> JavaScript</li>
-        <li><img src="{{ url_for('static', filename='img/html.png') }}" alt="HTML Logo"> HTML</li>
-        <li><img src="{{ url_for('static', filename='img/css_logo.webp') }}" alt="CSS Logo"> CSS</li>
+        <li><img src="{{ url_for('static', filename='img/python.png') }}" alt="Python Logo"> Python
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+
+        <li><img src="{{ url_for('static', filename='img/java.png') }}" alt="Java Logo"> Java
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+
+        <li><img src="{{ url_for('static', filename='img/sql.jpg') }}" alt="SQL Logo"> SQL
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+
+        <li><img src="{{ url_for('static', filename='img/javascript.jpg') }}" alt="JavaScript Logo"> JavaScript
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/html.png') }}" alt="HTML Logo"> HTML
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/css_logo.webp') }}" alt="CSS Logo"> CSS
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
     </ul>
 
     <h3>Frameworks & Tools</h3>
     <ul class="tools">
-        <li><img src="{{ url_for('static', filename='img/flask.png') }}" alt="Flask Logo"> Flask</li>
-        <li><img src="{{ url_for('static', filename='img/git.png') }}" alt="Git Logo"> Git</li>
-        <li><img src="{{ url_for('static', filename='img/docker.png') }}" alt="Docker Logo"> Docker</li>
-        <li><img src="{{ url_for('static', filename='img/ms-excel.png') }}" alt="Excel Logo"> Microsoft Excel</li>
-        <li><img src="{{ url_for('static', filename='img/ms-access.jfif') }}" alt="Access Logo"> Microsoft Access</li>
-        <li><img src="{{ url_for('static', filename='img/ms-word.png') }}" alt="Word Logo"> Microsoft Word</li>
-        <li><img src="{{ url_for('static', filename='img/ms-powerpoint.png') }}" alt="PowerPoint Logo"> Microsoft PowerPoint</li>
-        <li><img src="{{ url_for('static', filename='img/jupyter-notebook.png') }}" alt="Jupyter Notebook Logo"> Jupyter Notebook</li>
+        <li><img src="{{ url_for('static', filename='img/flask.png') }}" alt="Flask Logo"> Flask
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/git.png') }}" alt="Git Logo"> Git
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/docker.png') }}" alt="Docker Logo"> Docker
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/ms-excel.png') }}" alt="Excel Logo"> Microsoft Excel
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/ms-access.jfif') }}" alt="Access Logo"> Microsoft Access
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/ms-word.png') }}" alt="Word Logo"> Microsoft Word
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
+        <li><img src="{{ url_for('static', filename='img/ms-powerpoint.png') }}" alt="PowerPoint Logo"> Microsoft PowerPoint
+        
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+    </li>
+        <li><img src="{{ url_for('static', filename='img/jupyter-notebook.png') }}" alt="Jupyter Notebook Logo"> Jupyter Notebook
+        
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div></li>
     </ul>
     </ul>
 
     <h3>Cloud Tools/Platforms</h3>
     <ul class="cloud">
-        <li><img src="{{ url_for('static', filename='img/aws.png') }}" alt="AWS Logo"> AWS Cloud</li>
+        <li><img src="{{ url_for('static', filename='img/aws.png') }}" alt="AWS Logo"> AWS Cloud
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+        </div>
+        </li>
     </ul>
 </section>
+
 
 
 {% endblock %}
