@@ -284,3 +284,25 @@ section:hover {
 .contact-list a:hover {
   text-decoration: underline;
 }
+
+.project-card .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1rem 0;
+}
+
+.project-card .tech-item {
+    background-color: #1F6FEB;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.project-card .tech-item:hover {
+    background-color: #58A6FF;
+    transform: scale(1.05);
+}
