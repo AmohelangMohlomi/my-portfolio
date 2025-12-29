@@ -88,4 +88,4 @@ If you’d like to collaborate or learn more about my work, please visit the con
 
 ## 📝 License
 
-MIT LINCENSE 
+MIT LICENSE 
