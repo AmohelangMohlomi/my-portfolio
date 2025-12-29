@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a web developer. It is designed to be clean, responsive, and easy to navigate, giving visitors a clear overview of who I am and what I do.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a software engineer. It is designed to be clean, responsive, and easy to navigate, giving visitors a clear overview of who I am and what I do.
 
 ## 🎥 DEMO
 [![Video title](https://img.youtube.com/vi/H0KiJuSRmbo/0.jpg)](https://www.youtube.com/watch?v=H0KiJuSRmbo)
@@ -71,7 +71,7 @@ cd your-repository-name
 
 ## 🎯 Purpose
 
-- This portfolio was built to:
+This portfolio was built to:
 
 - Showcase my web development skills
 
