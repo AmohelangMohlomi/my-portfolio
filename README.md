@@ -15,6 +15,9 @@ https://amohelangmohlomi.vercel.app/
 - Responsive design (mobile, tablet, and desktop)
 - Clean and modern user interface
 - About Me section
+- Educational Background section
+- Certifications section
+- Tech Stack section
 - Projects showcase
 - Contact section
 - Smooth navigation and interactions
