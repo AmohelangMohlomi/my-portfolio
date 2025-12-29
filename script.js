@@ -50,3 +50,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+function openCertificate(imageSrc) {
+  const modal = document.getElementById("certificateModal");
+  const modalImg = document.getElementById("certificateImage");
+
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
+}
+
+function closeCertificate() {
+  document.getElementById("certificateModal").style.display = "none";
+}
+

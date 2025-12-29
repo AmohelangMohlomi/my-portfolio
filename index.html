@@ -5,6 +5,12 @@
     <title>Amohelang Mohlomi</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- Certificate Modal -->
+<div id="certificateModal" class="modal">
+  <span class="close" onclick="closeCertificate()">&times;</span>
+  <img class="modal-content" id="certificateImage">
+</div>
+
 <body>
     <header>
         <h1><a href="/">Amohelang Mohlomi()</a></h1>
@@ -56,16 +62,41 @@
 </section>
 
 <section class="certifications">
+  <h2>Certifications</h2>
 
-    <h2>Certifications</h2>
-    <ul class="cert-list">
-        <li>GenAI for Software Engineering - WeThinkCode_</li>
-        <li>AWS Educate Machine Learning Foundations - AWS Educate</li>
-        <li>Microsoft AI Fluency - Microsoft</li>
-        <li>Python for Data Science- IBM</li>
-    </ul>
+  <div class="cert-card">
+    <p>GenAI for Software Engineering - WeThinkCode_</p>
+    <button class="button"
+      onclick="openCertificate('assets/certificates/genai.jfif')">
+      View Certificate
+    </button>
+  </div>
 
+  <div class="cert-card">
+    <p>AWS Educate Machine Learning Foundations - AWS</p>
+    <button class="button"
+      onclick="openCertificate('assets/certificates/ml.png')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <p>Microsoft AI Fluency - Microsoft</p>
+    <button class="button"
+      onclick="openCertificate('assets/certificates/ai-fluency.png')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <p>Python for Data Science - IBM</p>
+    <button class="button"
+      onclick="openCertificate('assets/certificates/ibm-data-science.png')">
+      View Certificate
+    </button>
+  </div>
 </section>
+
 
 <section class="tech-stack">
     <h2>Tech Stack</h2>
