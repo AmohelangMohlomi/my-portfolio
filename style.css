@@ -343,3 +343,21 @@ section:hover {
   font-weight: bold;
   cursor: pointer;
 }
+.logo-title a{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+  color:inherit;
+}
+
+.site-logo{
+  width:45px;
+  height:45px;
+  object-fit:contain;
+  transition:transform .3s ease;
+}
+
+.site-logo:hover{
+  transform:rotate(10deg) scale(1.08);
+}
